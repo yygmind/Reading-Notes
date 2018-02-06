@@ -3,38 +3,18 @@
 
 ## <a name='table-of-contents'>目录</a>
 
- #### [HTML 相关](#html-interviews)
- #### [HTML5 相关](#html5-interviews)
- #### [CSS 相关](#css-interviews)
- #### [CSS3 相关](#css3-interviews)
- #### [JS 相关](#js-interviews)
- #### [React 相关](#react-interviews)
- 
- <details>
-    <summary>View contents</summary>
-    
-    * [`call`](#call)
-    * ['react、vue原理，两者的区别还有基本的思想'](#react、vue原理，两者的区别还有基本的思想)
-    * [react怎么优化](#react_1)
-    * [react的思想是什么](#react_3)
-    * [`yesNo`](#yesno)
-    
- </details>
- 
- 
- #### [移动端 相关](#app-interviews)
- #### [Redux 相关](#redux-interviews)
- #### [Vue 相关](#vue-interviews)
- #### [Node 相关](#node-interviews)
+ 1. [HTML 相关](#html-interviews)
+ 1. [CSS 相关](#css-interviews)
+ 1. [JS 相关](#js-interviews)
+ 1. [React 相关](#react-interviews)
+ 1. [Redux 相关](#redux-interviews)
+ 1. [Vue 相关](#vue-interviews)
+ 1. [移动端 相关](#app-interviews)
+ 1. [Node 相关](#node-interviews)
+
 
 ---
 #### <a name='html-interviews'>HTML 相关：</a>
-  
-  
-<br>[⬆ Back to top](#table-of-contents)
-
----
-#### <a name='html5-interviews'>HTML5 相关：</a>
   
   
 <br>[⬆ Back to top](#table-of-contents)
@@ -46,12 +26,6 @@
 ```
 核心思路是怎么让block不自适应平铺为整行。触发bfc就可以了；比如绝对布局，float，inline-block等等
 ```
-
-  
-<br>[⬆ Back to top](#table-of-contents)
-
----
-#### <a name='css3-interviews'>CSS3 相关：</a>
 
   
 <br>[⬆ Back to top](#table-of-contents)
@@ -75,8 +49,7 @@
 ---
 #### <a name='react-interviews'>React 相关：</a>
 
-##### 1、<a name='react_1'>react、vue原理，两者的区别还有基本的思想</a>
-* react、vue原理，两者的区别还有基本的思想
+* 1、<a name='react_1'>react、vue原理、基本思想和区别</a>
 ```
 于我来说最直观的是写法的区别，jsx与模板；同时debug中也存在差异。
 再有就是框架实现思想上的区别了，数据绑定与diff
@@ -88,6 +61,24 @@
 ```
 数据驱动balabala，举了一个之前封装轮播图的例子
 ```
+
+  
+<br>[⬆ Back to top](#table-of-contents)
+
+
+---
+#### <a name='redux-interviews'>Redux 相关：</a>
+
+* 1、<a name='redux_1'>对redux怎么看？</a>
+```angular2html
+从时间旅行的乌托邦，看状态管理的设计误区
+https://juejin.im/post/5a37075051882527a13d9418
+```
+  
+<br>[⬆ Back to top](#table-of-contents)
+
+---
+#### <a name='vue-interviews'>Vue 相关：</a>
 
   
 <br>[⬆ Back to top](#table-of-contents)
@@ -125,29 +116,11 @@ https://github.com/Aaaaaaaty/Blog/issues/8
 https://github.com/Aaaaaaaty/Blog/issues/8
 ```
 
+<br>[⬆ Back to top](#table-of-contents)
+
+
+---
+#### <a name='node-interviews'>Node 相关：</a>
 
   
 <br>[⬆ Back to top](#table-of-contents)
-
----
-#### <a name='redux-interviews'>Redux 相关：</a>
-
-* 1、<a name='redux_1'>对redux怎么看？</a>
-```angular2html
-从时间旅行的乌托邦，看状态管理的设计误区
-https://juejin.im/post/5a37075051882527a13d9418
-```
-  
-<br>[⬆ Back to top](#table-of-contents)
-
----
-#### <a name='vue-interviews'>Vue 相关：</a>
-
-  
-<br>[⬆ Back to top](#table-of-contents)
-
----
-
-### call
-
-Given a key and a set of arguments, call them when given a context. Primarily useful in composition.
