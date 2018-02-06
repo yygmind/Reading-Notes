@@ -1,0 +1,4 @@
+node_modules/
+*.md.temp.js
+.idea
+/*.log
